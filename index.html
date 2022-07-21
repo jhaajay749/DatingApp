@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DatingApp</title>
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <h1>Date My Daughter/Son</h1>
+      </header>
+      <section class="section">
+        <form action="/">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your full name"
+            required
+          /><br />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your Email"
+            required
+          /><br />
+
+          <label for="number">Phone Number</label>
+          <input
+            type="number"
+            id="number"
+            name="number"
+            placeholder="Enter your Phone Number"
+            required
+          /><br />
+
+          <h2>What's your gender ?</h2>
+          <input type="radio" id="male" name="gender" /><label>Male</label>
+          <input type="radio" id="female" name="gender" /><label>Female</label>
+          <input type="radio" id="other" name="gender" /><label>Other</label
+          ><br /><br />
+
+          <h2>Date of proposed outing</h2>
+          <input type="date" id="date" /><br /><br />
+
+          <h2>Check all that apply to you:</h2>
+          <input type="checkbox" /><label
+            > I have tattoos and/or piercings </label
+          ><br /><br />
+          <input type="checkbox" />
+          <label> I am more than 2 years older than my daughter </label
+          ><br /><br />
+          <input type="checkbox" />
+          <label>  I own a panel van or Ferrari </label><br /><br />
+          <input type="checkbox" /><label>  I work full-time </label
+          ><br /><br />
+          <input type="checkbox" /><label> My parents are rich </label
+          ><br /><br />
+          <input type="checkbox" /><label
+            > Is the date at a private/public location </label
+          ><br /><br />
+
+          <h2>Educational Qualification</h2>
+          <select>
+            <option value="select">Select</option>
+            <option value="hsc">Till 12th HSC</option>
+            <option value="graduction">Graduted</option>
+            <option value="postgraduted">Postgraduted</option></select
+          ><br /><br />
+
+          <h2>Why do you want to date my daughter (50 words)?</h2>
+          <textarea
+            cols="60"
+            rows="10"
+            placeholder="At least 50 words....."
+            required
+          ></textarea
+          ><br /><br />
+
+          <h2>Where I'can Connect to you?</h2>
+          <input type="checkbox" /><label>Email</label>
+          <input type="checkbox" /><label>Phone Number</label>
+          <input type="checkbox" /><label>Whatsapp</label>
+
+          <label id="file"
+            >Upload your Bank Statement <input type="file" /> </label
+          ><br /><br />
+
+          <button>Submit</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

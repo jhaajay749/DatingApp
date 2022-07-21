@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("https://images.unsplash.com/photo-1489549132488-d00b7eee80f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60");
+  background-size: cover;
+  color: white;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  text-align: center;
+  margin-top: 30px;
+  color: rgb(237, 100, 184);
+}
+
+section {
+  margin-top: 2em;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+label {
+  font-size: 22px;
+}
+
+#name,
+#email,
+#number {
+  display: block;
+  width: 25%;
+  height: 40px;
+  margin: auto;
+  border: 1px solid blue;
+  border-radius: 20px;
+}
+
+#male,
+#female,
+#other {
+  width: 15px;
+  height: 15px;
+}
+
+#date {
+  width: 8%;
+  height: 40px;
+}
+
+input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+}
+
+select {
+  width: 10%;
+  height: 40px;
+}
+
+h2 {
+  color: solid whitesmoke;
+}
+
+textarea {
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+
+button {
+  height: 40px;
+  width: 30%;
+  background-color: green;
+  color: white;
+  border: 1px solid blueviolet;
+  border: 25px;
+  cursor: pointer;
+  font-size: large;
+  margin-top: 10px;
+}
+
+#file {
+  display: block;
+  margin-top: 50px;
+}
+
+@media (max-width: 700px) {
+  #name,
+  #email,
+  #number {
+    width: 50%;
+  }
+
+  select {
+    width: 200px;
+  }
+
+  #date {
+    width: 200px;
+  }
+
+  textarea {
+    width: 300px;
+  }
+
+  button {
+    border-radius: 25px;
+  }
+}
